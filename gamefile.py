@@ -3,7 +3,7 @@ from requests.auth import HTTPBasicAuth
 import json
 
 print("Welcome to Animal Charades, where you act out an animal doing a certain activity!")
-verb = ["running", "walking", "sleeping", "dancing", "jumping", "singing", "swimming", "triping", "fighting", "crying", "laughing", "shouting", "cycling", "driving", "eating", "programming", "exercising", "cooking"]
+verb = ["running", "walking", "sleeping", "dancing", "jumping", "singing", "swimming", "triping", "fighting", "crying", "laughing", "shouting", "cycling", "driving", "eating", "programming", "exercising", "cooking", "drain", "contract", "smoke", "tighten", "replace", "hear", "please", "race", "divert", "call", "wisper", "see", "seek", "dissolve", "need", "undergo", "own", "condemn", "attend", "contract", "advertise", "owe", "halt", "translate", "arrest", "plant"]
 while(True):
     animal_response = requests.get("https://random-word-form.herokuapp.com/random/animal")
 
